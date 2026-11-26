@@ -32,7 +32,7 @@ jobs:
           sdkmanager "platform-tools" "platforms;android-35" "build-tools;35.0.0"
 
       - name: Configurar Gradle
-        uses: gradle/actions/setup-gradle@v4
+        uses: gradle/actions/setup-gradle@v6
 
       - name: Compilar aplicativo
         run: |
